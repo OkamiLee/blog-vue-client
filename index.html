@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	    <title>geek</title>
+	    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	</head>
+  	<body>
+    	<div id="app" style="margin-top: 20px;"></div>
+	    <script>
+	    	document.addEventListener('plusready',function(){
+	    		plus.push.addEventListener( "receive", function ( msg ) {
+					plus.device.vibrate(1000);
+					plus.push.createMessage( msg.content ,"LocalMSG",{sound:"none"});
+	    		}, false );
+	    		var webview = plus.webview.currentWebview();
+			    plus.key.addEventListener('backbutton', function() {
+			        webview.canBack(function(e) {
+			            if(e.canBack) {
+			              	webview.back();
+			            } else {
+			              	plus.nativeUI.confirm( "要退出应用吗", function(e){
+				              	if(e.index==0){
+				              		plus.runtime.quit();
+				              	}
+							});
+			            }
+				    })
+			    });
+	    	},false);
+	    </script>
+  	</body>
+</html>

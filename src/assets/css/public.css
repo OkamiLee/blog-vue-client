@@ -1,0 +1,83 @@
+.clearfix:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clearfix {zoom:1;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,section,header,footer,figure,aside{margin:0;padding:0; text-align: left;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+img{ display:block; border:none;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+.fl{ float:left;}
+.fr{ float:right !important;}
+i{ font-style:normal;}
+a{text-decoration:none; color:#242424;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+.reply{position:relative;background:#fff;z-index:999;}
+q:before,q:after{content:"" ;}
+abbr,acronym{border:0;}
+input,textarea{ outline:none;}
+.share_icon{position:absolute; background:url(../img/sheblack.png);background-size:100% 100%;height:18px;width:18px;top:13px;right:20px;}
+.back_icon{position:absolute;left:20px;top:0;width:20px;height:44px;}
+.swiper-pagination-bullet-active{background:rgba(50,53,107,0.8) !important;}
+.header{width:100%;height:44px;top:0;position: relative !important; background:#22272b;padding:6px 0;z-index:11 !important;}
+.search_box{position:relative;width:85%; background:rgba(255,255,255,0.3);height:32px;margin:0 auto; border-radius:5px;}
+.swiper-container{z-index:10 !important;}
+body{background-color:#22272b !important;font-size:14px;}
+.logo{ width: 40px;position:absolute; left: 20px; top: 10px;}
+.search_icon{ color: #8a80da;position:absolute !important; right: 20px !important; top: 10px !important;padding:0 !important;margin:0 !important;}
+.search_top_icon{color: #8a80da;position:absolute !important;left: 20px !important; top: 18px !important;padding:0 !important;margin:0 !important;}
+.mu-infinite-scroll-text{ color:#a39fd7;}
+.mui-icon-home:before{ font-weight: 400;}
+.mui-bar-tab .mui-tab-item.mui-active{ color: #fff !important; border-top:2px solid #fff;}
+.mui-bar-tab .mui-tab-item .mui-icon{ color: #fff !important;}
+.plus_icon{ width: 24px;height: 24px; background-size:100% 100%; margin: 0 auto;}
+.news_user_img{width: 40px;height: 40px;margin:0 10px; border-radius: 50%;}
+.news_content{ border-top: 1px solid #2f363c;}
+.news_list{ margin-bottom: 15px;}
+.news_name_time h1{line-height: 25px;font-size:15px; color: #ebfbfa;margin: 0;}
+.news_name_time{padding-top: 5px;}
+.news_content{padding-right: 10px; box-sizing: border-box;}
+.news_name_time span{color: #68686e;}
+.news_text{color: #aebac3; text-align: left;line-height: 25px;}
+.news_img_box img{float:left;margin:0 5px 5px 0;}
+.news_img_box{ text-align: left;margin-top: 5px;}
+.top_search_box{width: 100%;position: absolute; top: -150px; left: 0;height: 60px; border: 1px solid #e3e3e3; box-sizing: border-box; background: #fff;z-index:21; border-bottom: 2px solid #a357ff; }
+.top_search_box input{width:70%; background-color: #fff;margin:15px 40px 15px 60px !important;padding: 0; text-align: left;height: 50px;}
+.search_close_icon{position: absolute !important; right:20px !important; top: 17px !important;padding: 0 !important;}
+.mymain_icon{width: 20px;height: 20px;}
+.dynamic_listy em{float: left; width: 22px;height: 22px;}
+.dynamic_listy span{float: left; line-height: 36px; margin-left: 20px;}
+.gz_icon{ background: url(../img/guanzhu.png);}
+.rj_icon{ background: url(../img/riji.png);}
+.bk_icon{ background: url(../img/book.png);width: 20px;height: 20px; margin-top: 8px;}
+.xx_icon{ background: url(../img/msg.png);}
+.sz_icon{ background: url(../img/set.png);}
+.dynamic_listy i{float: right;margin-right: 15px;width: 20px;height: 20px;background: url(../img/right.png);background-size: 100% 100%;margin-top: 8px; }
+#footer_box{z-index: 30;}
+#vueg-background{ background: transparent !important;}
+.footer_box{position: fixed;bottom: 0;left:0;width:100%}
+.mu-icon-menu i{color:#5448b6}
+/*.mu-icon-menu{position: absolute !important; top: -2px;left:60px;}*/
+.mu-checkbox-label,.mu-checkbox-icon-uncheck{color: #85a1b7 !important;}
+.demo-checkbox{ line-height:36px ;height: 36px;margin-right: 20px;}
+.mu-checkbox-wrapper{height: 36px;}
+.write_btn{margin: 0 auto;display: block;width: 80%;}
+.mu-item-title{ color: #ebfbfa; font-size: 15px;}
+.mu-item-text{ color:#aebac3;font-size: 14px;margin-top: 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
